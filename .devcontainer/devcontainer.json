@@ -1,0 +1,15 @@
+{
+    "name": "Robotic Manipulation",
+    "image": "roboticmanipulation",
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+    ],
+    "forwardPorts": [
+        7000
+    ],
+    "runArgs": [
+        "-p",
+        "7001:7000"
+    ]
+}
