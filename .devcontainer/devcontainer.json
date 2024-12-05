@@ -1,15 +1,21 @@
 {
-    "name": "Robotic Manipulation",
-    "image": "roboticmanipulation",
+    "name": "Robotic Manipulation Dev Container",
+    "build": {
+        "dockerfile": "../01-Introduction/Dockerfile",
+        "context": "..",
+        "args": {
+            "PLATFORM": "linux/amd64"
+        }
+    },
+    "runArgs": [
+        "-p",
+        "7001:7000" // port 7000 was already used on my Mac, so forwarding to 7001 (thus will need to open http://localhost:7001 instead)
+    ],
     "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter"
     ],
     "forwardPorts": [
         7000
-    ],
-    "runArgs": [
-        "-p",
-        "7001:7000"
     ]
 }
