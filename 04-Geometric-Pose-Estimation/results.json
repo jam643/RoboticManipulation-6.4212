@@ -1,0 +1,21 @@
+{
+    "tests": [
+        {
+            "name": "Test outlier removal",
+            "score": 0.0,
+            "max_score": 2,
+            "status": "failed",
+            "output": "\n/tmp/ipykernel_97836/1304420026.py:27: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)\n  inliers = [int(d <= tolerance) for d in distances]\n\nTest Failed: 'Timed Out'\n"
+        },
+        {
+            "name": "Test ransac method",
+            "score": 0.0,
+            "max_score": 4,
+            "status": "failed",
+            "output": "Test Failed: index 5850 is out of bounds for axis 1 with size 6\n"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "8.00",
+    "score": 0.0
+}

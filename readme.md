@@ -1,6 +1,8 @@
 # Robotic Manipulation MIT 6.4212
 
 My informal HW solutions for MIT 6.4212 for Fall 2023
+* [Course schedule](https://manipulation.csail.mit.edu/Fall2023/schedule.html)
+
 
 ## Running Notebooks
 
